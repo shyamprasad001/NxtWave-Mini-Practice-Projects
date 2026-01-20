@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.heading {
+    text-align: center;
+    color: #183b56;
+    font-family: Roboto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.paragraph {
+    text-align: center;
+    color: #5a7184;
+    font-family: Roboto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.cards-contianer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 900px;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.card-image {
+    height: 56px;
+    width: 56px;
+}
+
+.card-heading {
+    color: #183b56;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.card-description {
+    color: #5a7184;
+    font-family: Roboto;
+    font-size: 12px;
+}
