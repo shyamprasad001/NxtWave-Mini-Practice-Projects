@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: linear-gradient(to right, #4b4a7e, #c294d1, #4b4a7e);
+    background-size: cover;
+    /*     height: 100vh; */
+    padding: 20px;
+}
+
+.quotes-page-heading {
+    color: #f1f5f9;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.quote-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.quote-icon-1 {
+    font-size: 30px;
+    color: #5d408c;
+}
+
+.quote-icon-2 {
+    font-size: 30px;
+    color: #2a4eaa;
+}
+
+.quote-icon-3 {
+    font-size: 30px;
+    color: #9e619b;
+}
+
+.quote-icon-4 {
+    font-size: 30px;
+    color: #391484;
+}
+
+.quote-card-detailes {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .quotes-page-heading {
+        color: #f1f5f9;
+        font-family: Roboto;
+        font-size: 46px;
+    }
+
+    .quote-card-image {
+        width: 120px;
+        /* height: 160px; */
+        margin: 10px;
+    }
+
+    .quote {
+        color: #6e798c;
+        font-size: 20px;
+    }
+
+    .quote-auther {
+        color: #081f32;
+        font-size: 30px;
+    }
+}
+
+/* @media screen and (width: 768px){
+    .quotes-page-heading {
+    color: #f1f5f9;
+    font-family: Roboto;
+    font-size: 46px;
+    }
+    
+    .quote-card-image {
+    height: 150px;
+    margin: 10px;
+    }
+    
+    .quote {
+    color: #6e798c;
+    font-size: 20px;
+    }
+
+    .quote-auther {
+    color: #081f32;
+    font-size: 30px;
+    }
+} */
+
+
+@media screen and (max-width: 767px) {
+    .quotes-page-heading {
+        color: #f1f5f9;
+        font-family: Roboto;
+        font-size: 36px;
+    }
+
+    .quote-card-image {
+        width: 80px;
+        /* height: 130px; */
+        margin: 10px;
+    }
+
+    .quote {
+        color: #6e798c;
+        font-size: 15px;
+    }
+
+    .quote-auther {
+        color: #081f32;
+        font-size: 25px;
+    }
+}
