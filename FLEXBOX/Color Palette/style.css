@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.color-palete-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.heading {
+    color: #011e3f;
+    font-family: Roboto;
+    margin: 10px;
+    width: 100%;
+}
+
+.box {
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    width: 120px;
+    padding: 10px;
+    justify-content: center;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.red {
+    background-color: #f87171;
+}
+
+.orange {
+    background-color: #fb923c;
+}
+
+.amber {
+    background-color: #fbbf24;
+}
+
+.yellow {
+    background-color: #facc15;
+}
+
+.lime {
+    background-color: #a3e635;
+}
+
+.green {
+    background-color: #4ade80;
+}
+
+.emerald {
+    background-color: #34d399;
+}
+
+.cyan {
+    background-color: #22d3ee;
+}
+
+.lightblue {
+    background-color: #38bdf8;
+}
+
+.blue {
+    background-color: #60a5fa;
+}
+
+.indigo {
+    background-color: #818cf8;
+}
+
+.purple {
+    background-color: #c084fc;
+}
+
+.fuchsia {
+    background-color: #e879f9;
+}
+
+.pink {
+    background-color: #f472b6;
+}
+
+.rose {
+    background-color: #fb7185;
+}
