@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media screen and (max-width: 991px) {
+    .page-bg-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .page-head-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-sm-bg.png');
+        background-size: cover;
+        align-items: center;
+        padding-top: 70px;
+        flex-grow: 4;
+        padding-bottom: 300px;
+    }
+
+    .page-logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-logo {
+        height: 120px;
+    }
+
+    .page-logo-heading {
+        color: #ffffff;
+        font-family: Open Sans;
+        font-size: 30px;
+    }
+
+    .page-logo-caption {
+        color: lightgrey;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .page-content-container {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    .content-heading {
+        color: #12022f;
+        font-family: Open Sans;
+        font-size: 40px;
+    }
+
+    .content-paragraph {
+        color: #594d6d;
+        font-family: Open Sans;
+        font-size: 25px;
+    }
+
+    .hotel-stats-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .stat-value {
+        color: #176fff;
+        font-size: 40px;
+        font-family: Open Sans;
+
+    }
+
+    .stat-name {
+        color: #323f4b;
+        font-size: 30px;
+        font-family: Open Sans;
+    }
+
+    .stat-container {
+        flex-grow: 1;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .page-bg-container {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .page-head-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-lg-bg-v1.png');
+        background-size: cover;
+        align-items: center;
+        padding-top: 120px;
+        min-width: 50%;
+        flex-grow: 1;
+    }
+
+    .page-logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-logo {
+        height: 120px;
+    }
+
+    .page-logo-heading {
+        color: #ffffff;
+        font-family: Open Sans;
+        font-size: 30px;
+    }
+
+    .page-logo-caption {
+        color: lightgrey;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .page-content-container {
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .content-heading {
+        color: #12022f;
+        font-family: Open Sans;
+        font-size: 60px;
+    }
+
+    .content-paragraph {
+        color: #594d6d;
+        font-family: Open Sans;
+        font-size: 25px;
+    }
+
+    .hotel-stats-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .stat-value {
+        color: #176fff;
+        font-size: 35px;
+        font-family: Open Sans;
+
+    }
+
+    .stat-name {
+        color: #323f4b;
+        font-size: 30px;
+        font-family: Open Sans;
+    }
+
+    .stat-container {
+        flex-grow: 1;
+        min-height: 100px;
+        min-width: 200px;
+    }
+}
