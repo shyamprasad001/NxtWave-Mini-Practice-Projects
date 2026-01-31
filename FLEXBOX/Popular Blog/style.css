@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.blog-bg-container {
+    background-color: #95b2ff;
+    background-size: cover;
+    padding: 20px;
+}
+
+.blogs-card-container {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .card-header-name {
+        font-family: Roboto;
+        font-size: 20px;
+        text-align: center;
+        color: #12022f;
+    }
+
+    .card-header-feed-name {
+        font-family: Roboto;
+        font-size: 30px;
+        color: #12022f;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-size: cover;
+        height: 30vh;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .marketing-strategies {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+    }
+
+    .card-heading {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 20px;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-family: Roboto;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-header-feed-name {
+        font-family: Roboto;
+        font-size: 30px;
+        color: #12022f;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .card-header-name {
+        font-family: Roboto;
+        font-size: 20px;
+        text-align: center;
+        color: #12022f;
+    }
+
+    .card-header-feed-name {
+        font-family: Roboto;
+        font-size: 30px;
+        color: #12022f;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        background-size: cover;
+        height: 30vh;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .marketing-strategies {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        width: 100%;
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+        width: 49%;
+        margin-right: auto;
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+        width: 49%;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        width: 100%;
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+        width: 49%;
+        margin-right: auto;
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+        width: 49%;
+    }
+
+    .card-heading {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 20px;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-family: Roboto;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-header-name {
+        font-family: Roboto;
+        font-size: 20px;
+        text-align: center;
+        color: #12022f;
+    }
+
+    .card-header-feed-name {
+        font-family: Roboto;
+        font-size: 30px;
+        color: #12022f;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        background-size: cover;
+        height: 30vh;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .marketing-strategies {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        width: 49%;
+        margin-right: auto;
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+        width: 25%;
+        margin-right: auto;
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+        width: 25%;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        width: 51%;
+        order: 1;
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+        width: 24%;
+        margin-right: auto;
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+        width: 24%;
+        margin-right: auto;
+    }
+
+    .card-heading {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 20px;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-family: Roboto;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
